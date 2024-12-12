@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazzed - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Playwrite+BE+WAL+Guides&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header class="bg-dark text-white p-3">
+  <div class="container d-flex align-items-center justify-content-between">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="jazzed.svg" alt="Jazzed Logo, cursive letters spelling jazzed in a purple font" class="logo-img">
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="discover.html" class="nav-link">Discover</a></li>
+        <li class="nav-item"><a href="playlists.html" class="nav-link">Playlists</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="shop.html" class="nav-link">Shop</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Hero Section with Video Background -->
+    <section class="hero position-relative">
+    <video autoplay muted loop id="hero-video" class="w-100">
+        <source src="julie.mp4" type="video/mp4">
+    </video>
+    <div class="overlay text-center position-absolute top-50 start-50 translate-middle">
+        <h2 style="color: #ffeedb;">Get Jazzed</h2>
+        <p style="color: #ffeedb;">Rekindling a love for jazz through curation and education</p>
+        <a href="playlists.html" class="btn btn-primary" style="color: #4c3b4d;">Listen Now</a>
+    </div>
+</section>
+
+ <!-- About Section -->
+   <section class="py-5" style="background-color: #4c3b4d; color: white;">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Text Section -->
+                <div class="col-md-6">
+                    <h2 class="mb-4 text-theme">Why Jazzed?</h2>
+
+                    <p class="fs-5">When people think of jazz, they usually think "elevator music." But the genre is so much more than something to play in the background of your life. I love jazz, but I feel like we as a society don't appreciate it enough anymore or recognize its influence on music today.</p>
+                    <p class="fs-5">I wanted to rebrand jazz in a way that the new generation can be excited about. I think it is important to romanticize our lives and jazz is the perfect soundtrack to do it to.</p>
+                </div>
+                <!-- Image Section -->
+                <div class="col-md-6">
+                    <img src="artists.png" alt="a collage of julie london, ella fitzgerald, and laufey" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Artists Section -->
+<section class="py-5 bg-theme">
+    <div class="container text-center">
+        <h2 class="mb-4 text-theme">This Month's Featured Artists</h2>
+        <p class="fs-5">Discover the legends and the new faces of jazz that inspire the world. From timeless classics to contemporary innovators, jazz has something for everyone.</p>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="ella.jpg" class="card-img-top" alt="Ella Fitzgerald">
+                    <div class="card-body">
+                        <h5 class="card-title">Ella Fitzgerald in black and white</h5>
+                        <p class="card-text">The Queen of Jazz, known for her smooth vocals and timeless hits.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="john.jpg" class="card-img-top" alt="John Coltrane in black and white">
+                    <div class="card-body">
+                        <h5 class="card-title">John Coltrane</h5>
+                        <p class="card-text">A jazz pioneer whose saxophone changed the course of music history.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="laufey.jpg" class="card-img-top" alt="Laufey in black and white">
+                    <div class="card-body">
+                        <h5 class="card-title">Laufey</h5>
+                        <p class="card-text">A modern artist bringing jazz back to a new generation with style.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 Jazzed. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
